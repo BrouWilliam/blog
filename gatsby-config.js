@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `My blog`,
+    title: `William Pereira`,
+    position: `Desenvolvedor FrontEnd`,
     description: `A blog about frontend development and other cool stuff`,
     author: `@William Pereira`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -35,3 +37,7 @@ module.exports = {
     // `gatsby-plugin-offline`,
   ],
 }
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})

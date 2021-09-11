@@ -1,6 +1,5 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from 'gatsby'
-import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
@@ -13,6 +12,9 @@ const IndexPage = () => {
       allMarkdownRemark {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               background
               category
@@ -36,12 +38,13 @@ const IndexPage = () => {
         <Seo title="Home" />
         {postList.map(({
           node: {
-            frontmatter: { background, category, description, date, title },
-            timeToRead
-          }
+            frontmatter: { background, category, date, description, title },
+            timeToRead,
+            fields: { slug },
+          },
         }) => (
         <PostItem 
-              slug="/about/"
+              slug={slug}
               background={background}
               category={category}
               date={date}

@@ -10,10 +10,21 @@ background: "#7AAB13"
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-```javascript
-a=3
-puts a
-```
+ˋˋˋ
+Esta é uma linha de código
+ ˋˋˋ
+
+~~~javascript
+Esta é uma linha de código em Javascript.
+~~~
+
+~~~php
+Esta é uma linha de código em PHP.
+~~~
+
+~~~html
+Esta é uma linha de código em HTML.
+~~~
 
 ## Fusce a metus eu
 

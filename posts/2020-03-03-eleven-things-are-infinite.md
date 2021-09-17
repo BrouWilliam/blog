@@ -10,9 +10,24 @@ background: "#7AAB13"
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [adipiscing](http://google.com) eu pulvinar vel, sodales vitae dui. :thumbsup: :smile: :sparkler:
 
-ˋˋˋ
-Esta é uma linha de código
- ˋˋˋ
+![Desert](/assets/img/desert.jpg)
+
+
+```jsx
+import React from "react"
+import Profile from "../Profile"
+import SocialLinks from "../SocialLinks"
+import MenuLinks from "../MenuLinks"
+import * as S from "./styled"
+const Sidebar = () => (
+  <S.SidebarWrapper>
+    <Profile />
+    <SocialLinks />
+    <MenuLinks />
+  </S.SidebarWrapper>
+)
+export default Sidebar
+```
 
 ~~~javascript
 Esta é uma linha de código em Javascript.
@@ -25,6 +40,8 @@ Esta é uma linha de código em PHP.
 ~~~html
 Esta é uma linha de código em HTML.
 ~~~
+
+![Desert](/assets/img/lake.jpg)
 
 ## Fusce a metus eu
 

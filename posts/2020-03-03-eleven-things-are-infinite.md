@@ -4,6 +4,7 @@ title: Eleven things are infinite
 description: And i"m not sure about the universe.
 category: Misc
 background: "#7AAB13"
+image: "/assets/img/desert.jpg"
 ---
 
 # Lorem ipsum

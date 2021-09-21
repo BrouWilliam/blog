@@ -14,6 +14,7 @@ export const MenuBarWrapper = styled.aside`
   position: fixed;
   right: 0;
   width: 3.75rem;
+  z-index: 99;
 
   ${media.lessThan("large")`
   border-top: 1px solid var(--borders);

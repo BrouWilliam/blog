@@ -2,7 +2,7 @@ backend:
   name: github
   repo: brouWilliam/blog
   branch: main
-  site_domain: https://brouwilliam.netlify.app
+  site_domain: brouwilliam.netlify.app
 
 publish_mode: editorial_workflow
 media_folder: "/static/assets/img"

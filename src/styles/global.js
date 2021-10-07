@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyles = createGlobalStyle`
+
   /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -68,8 +69,8 @@ const GlobalStyles = createGlobalStyle`
     --texts: #8899a6;
     --postColor: #fff;
     --highlight: #1fa1f2;
-    --mediumBackground: #192734;
-    --background: #16202c;
+    --mediumBackground: #151616;
+    --background: #151616;
     --white: #fff;
     --black: #222;
   }

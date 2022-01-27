@@ -26,13 +26,13 @@ export const AboutButton = styled.a`
 `
 
 export const AboutTitle = styled.h1`
-    color: #FFFFFF;
+    color: var(--postColor);
     font-size: 60px;
 `
 
 export const AboutPosition = styled.h4`
     font-weight: 100;
-    color: #FFF;
+    color: var(--postColor);
     font-size: 24px;
     text-transform: uppercase;
 `
